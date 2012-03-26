@@ -1,4 +1,6 @@
 Please use the Makefile to compile the so_long library and the test drives.
 The test drives use gmp project(http://gmplib.org/).  Please install it if you want to run tests.
 
+To use the library, you can actually just cat so_long.h and so_long.c with your source.  Please see so_long.h too see the options/switches to use.
+
 Please report bugs to MickeyJu@gmail.com
