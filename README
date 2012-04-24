@@ -1,6 +1,13 @@
 Please use the Makefile to compile the so_long library and the test drives.
-The test drives use gmp project(http://gmplib.org/).  Please install it if you want to run tests.
+The test drives use gmp project(http://gmplib.org/).  Please install it if you
+want to run tests.
 
 To use the library, you can actually just cat so_long.h and so_long.c with your source.  Please see so_long.h too see the options/switches to use.
+
+In so_long_64 folder, there is a version where long long is used as the type of
+internal 'digits'.  The only difference is that additions are used to implement
+multiplication.  And of courses necessary changes to so_long.h were made.  But
+according to the tests run, this 64-bit version is way slower than its 32-bit
+counterpart, so this branch was discontinuted.
 
 Please report bugs to MickeyJu@gmail.com
